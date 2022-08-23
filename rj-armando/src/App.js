@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Productos from './components/Productos.js'; 
+import { Header } from './components/Header' 
 
-function App() {
+const App = () =>{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Armando Maldonado Clase React Js
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div>
+    <Header/>
+    <Productos/>
+  </div>
   );
 }
 
