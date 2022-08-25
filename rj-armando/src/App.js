@@ -1,20 +1,20 @@
 import './App.css'
-import { Header } from './components/NavBar' 
+import { NavBar } from './components/NavBar' 
 import { Contenedor } from './ejemplos/Contenedor';
 import UserContainer from './ejemplos/UserContainer';
 import Container from './ejemplos/ItemListContainer'
-
+import { CartWidget } from './ejemplos/CartWidget';
 
 const App = () =>{
 
 
   return (
   <div>
-    <Header/>
+    <NavBar/>
     <Container>
       <h4>Algun contenido</h4>
     </Container>
-
+    <CartWidget/>
     <Contenedor accesorio="Articulos!!" promos="Paquetes!!"/>
 
     <UserContainer/>

@@ -1,12 +1,15 @@
+import './App.css'
 
-export const Header = () => {
+
+export const NavBar = () => {
     return(
-        <header>
-        <h1>Mundo del Gamer</h1>
-        
-        <nv>
-         <h4>Link</h4>
-        </nv>
+        <header className="bg-NavBar">
+          <div className="NavBar-container">
+          <h1 className="NavBar-title">Mundo del Gamer</h1>
+          <nv className="header">
+           <h4 className="NavBar-navlink">Link</h4>
+          </nv>
+        </div>
       </header>
     )
 }
