@@ -14,7 +14,9 @@ const App = () =>{
     <Container>
       <h4>Algun contenido</h4>
     </Container>
+    
     <CartWidget/>
+
     <Contenedor accesorio="Articulos!!" promos="Paquetes!!"/>
 
     <UserContainer/>
