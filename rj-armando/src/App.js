@@ -1,12 +1,25 @@
 import './App.css'
-import Productos from './components/Productos.js'; 
-import { Header } from './components/Header' 
+import { Header } from './components/NavBar' 
+import { Contenedor } from './ejemplos/Contenedor';
+import UserContainer from './ejemplos/UserContainer';
+import Container from './ejemplos/ItemListContainer'
+
 
 const App = () =>{
+
+
   return (
   <div>
     <Header/>
-    <Productos/>
+    <Container>
+      <h4>Algun contenido</h4>
+    </Container>
+
+    <Contenedor accesorio="Articulos!!" promos="Paquetes!!"/>
+
+    <UserContainer/>
+
+
   </div>
   );
 }
