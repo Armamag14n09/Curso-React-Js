@@ -44,3 +44,7 @@ ul {
     list-style: none;
     align-items: auto;
 }
+.pequeña{
+    width: 150px;
+    height: 150px;
+  }
