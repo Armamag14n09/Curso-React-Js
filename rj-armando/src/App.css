@@ -47,4 +47,5 @@ ul {
 .pequeña{
     width: 150px;
     height: 150px;
+    justify-items: center;
   }

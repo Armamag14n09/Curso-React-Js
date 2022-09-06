@@ -2,26 +2,31 @@ export const stock =[
     {
         id: 1,
         nombre: 'Silla RGB',
-        precio: 2500,
+        precio:  2500,
         img: '/assets/silla1.jpeg',
         stock: 20,
-        desc: 'Un exelente producto'
+        desc: 'Un exelente producto',
+        category:'silla'
     },
     {
         id: 2,
         nombre: 'CPU',
-        precio: 500,
+        precio:  500,
         img: '/assets/cpu1.jpg',
         stock: 20,
-        desc: 'Un exelente producto'
+        desc: 'Un exelente producto',
+        category:'cpu'
+
     },
     {
         id: 3,
         nombre: 'Teclado',
-        precio: 250,
+        precio:  250,
         img: '/assets/teclado1.jpg',
         stock: 20,
-        desc: 'Un exelente producto'
+        desc: 'Un exelente producto',
+        category:'teclados'
+
     },
 
     {
@@ -30,7 +35,9 @@ export const stock =[
         precio: 380,
         img: '/assets/bocina1.jpg',
         stock: 20,
-        desc: 'Un exelente producto'
+        desc: 'Un exelente producto',
+        category:'bocina'
+
     },
 
     {
@@ -39,7 +46,9 @@ export const stock =[
         precio: 1520,
         img: '/assets/monitor1.jpg',
         stock: 20,
-        desc: 'Un exelente producto'
+        desc: 'Un exelente producto',
+        category:'monitor'
+
     },
 
 ]
