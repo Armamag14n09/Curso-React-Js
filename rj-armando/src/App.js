@@ -1,27 +1,25 @@
 import './App.css'
-//import 'bootstrap/dist/css/bootstrap.min.css'
+import ItemDatailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from './components/NavBar' 
-import { Contenedor } from './ejemplos/Contenedor';
-import UserContainer from './ejemplos/UserContainer';
-import Container from './ejemplos/ItemListContainer'
-import { CartWidget } from './ejemplos/CartWidget';
+import Container from './ejemplos/ItemListContainer';
+import { BrowserRouter} from 'react-router-dom';
 
 
 
 const App = () =>{
 
   return (
+
+
   <div>
+    
+    <BrowserRouter/>
+
     <NavBar/>
-    <Container>
-      <h4>Algun contenido</h4>
-    </Container>
-    <CartWidget/>
-
-    <Contenedor accesorio="Articulos!!" promos="Paquetes!!"/>
-
-    <UserContainer/>
-
+    {/*PokeApi/*/}
+    <Container/>
+    <ItemDatailContainer/>
 
   </div>
   );

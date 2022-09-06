@@ -1,0 +1,287 @@
+03:13:55	Macarena Garcia:	Despegando...jajaja
+03:16:40	Guido Carini:	npm start
+03:16:44	Guido Carini:	jajaja
+03:16:47	José González:	jajajaja exploto
+03:17:01	José María Sosa:	Nos pasó mucho lo de las imágenes rotas que no agarran
+03:17:09	Guido Carini:	si
+03:17:13	Javier Corra:	yo hoy no pude entrar a placeholder.com
+03:17:31	José María Sosa:	estará unplaced entonces
+03:17:36	Agustin Jaureguiberry:	pobre pichicho
+03:17:47	Joaquin Sangiorgi:	place holden´t
+03:17:54	José María Sosa:	jajajaja
+03:17:54	Guido Carini:	le falto el alt
+03:17:57	[TUTOR] Santiago Denis:	jajajaja
+03:18:21	Carlos Nicolás Roude:	un genio el firulais
+03:18:23	Nicolas Robles:	Bancamos fuerte al pichicho
+03:18:23	José María Sosa:	Como se llama el perro necesitamos saber
+03:18:28	Agustin Jaureguiberry:	el batirulais?
+03:18:30	Alexis Recalde:	pikachu
+03:19:10	Gonzalo Barreiro Aguirre:	Buenas noches
+03:20:23	Joaquin Sangiorgi:	Las empresas crean sus propias apis?
+03:24:35	Lucas Lobos:	Se supone que nosotros con React Js estamos mas del lado de la PC? Los smartphone serian con React Native no?
+03:26:06	José González:	es muy destinto?
+03:26:21	Gonzalo Almiron:	para unirse al back o MySQL se usaría el fetch?
+03:26:37	Vladimir Peralta:	Buenas noches, estoy teniendo muy mala conexión a internet, salgo y vuelvo a ingresar para ver si mejora
+03:26:51	Gonzalo Almiron:	gracias!
+03:26:56	Lucas Lobos:	Perfecto
+03:27:13	[TUTOR] Santiago Denis:	Modelo cliente servidor: https://blog.infranetworking.com/modelo-cliente-servidor/
+03:32:08	[TUTOR] Santiago Denis:	Push y polling: https://iberasync.es/comunicacion-basada-en-push-y-pull-en-arquitecturas-cliente-servidor/#:~:text=El%20modelo%20PUSH,o%20los%20nodos%20del%20sistema.
+03:32:45	[tutor] Agustin Lopez:	request : https://developer.mozilla.org/es/docs/Web/HTTP/Methods
+03:33:00	[Tutor] José Domínguez:	https://developer.mozilla.org/es/docs/Web/HTTP/Methods
+03:33:21	[Tutor] José Domínguez:	Metodos de petición HTTP
+03:34:17	[TUTOR] Santiago Denis:	Verbos HTTP: https://codigofacilito.com/articulos/rest-verbos-http
+03:37:43	Jonathan Diaz:	no les pasa que a veces no actualiza ? o se cuelga el localhost?
+03:38:00	Javier Corra:	vas a usar la api de pokemon?
+03:38:00	Pablo Rev:	el autoimport es un pligin?
+03:38:01	Guido Carini:	con las imágenes paso
+03:43:58	[TUTOR] Santiago Denis:	query params: https://rapidapi.com/blog/api-glossary/parameters/query/
+03:43:58	Guido Carini:	?q = "id"
+03:44:45	Guido Carini:	ahh
+03:44:47	Guido Carini:	joya
+03:46:46	José María Sosa:	los espacios no se llenaban con $ o %?
+03:49:38	Guido Carini:	si
+03:49:39	Hector Javier Araya:	sisi
+03:52:13	Lucas Lobos:	La api de pokemon creo que es asi
+03:52:35	Gonzalo Rigobello:	y para el front deberían seguir todos la misma sintaxis de params?
+03:52:36	Guido Carini:	la de clima openweather utiliza la primera
+03:53:26	Luciano Huayta:	:o
+03:54:07	Luciano Huayta:	si
+03:54:08	Hector Javier Araya:	sisi
+03:54:08	Pablo Reta:	si perfecto
+03:54:09	Alberto Garza Ayala:	sii
+03:54:10	Lucas Lobos:	si
+03:54:17	Guido Carini:	sii
+03:57:09	Hector Javier Araya:	si
+03:57:13	Francisco Semprini:	si
+03:57:14	Macarena Garcia:	sip
+03:57:44	Dario Rodriguez:	entiendo pero no se hacer peticiones es malo???
+04:00:43	Guido Carini:	por eso te envían al mail una key?
+04:01:27	José María Sosa:	Es sencillo, si tenés algún problema lo culpas al backend
+04:01:39	Guido Carini:	😄
+04:01:42	[TUTOR] Santiago Denis:	Fetch: https://developer.mozilla.org/es/docs/Web/API/Fetch_API
+04:02:22	Pablo Reta:	jajajajaja
+04:02:23	Macarena Garcia:	Sos el janero solitario Santiago... jajaja a full
+04:02:24	Jonathan Diaz:	buen animal jaja
+04:02:33	[TUTOR] Santiago Denis:	Jajajajaja
+04:03:32	Diego Fernández:	la api key se coloca en el segundo parametro?
+04:03:53	José María Sosa:	Si
+04:03:53	Pablo Reta:	si
+04:03:57	Macarena Garcia:	si
+04:03:59	Lucas Lobos:	Si
+04:04:05	José María Sosa:	puchito break
+04:04:15	Guido Carini:	siiii puchiiin
+04:04:19	Lucas Lobos:	Santi tiene programado que cada vez que empezemos tema nuevo large una pagina de informacion del tema
+04:04:29	Alejandro Dominguez:	jaqja
+04:04:30	Guido Carini:	sisi crack
+04:04:30	José González:	seeeee
+04:04:43	José González:	jjajaja es un genio
+04:04:43	[tutor] Agustin Lopez:	Chicos recuerden poner su nombre completo como esta en la plataforma para la asistencia
+04:04:44	José María Sosa:	santi tiene la doc en async
+04:04:52	[Tutor] José Domínguez:	Asistencia tomada por acá!
+04:04:52	[TUTOR] Santiago Denis:	Aca les dejo el desafio generic donde me comunico con la poke api por si alguien la quiere: https://stackblitz.com/edit/react-txssdr?file=src%2FApp.js
+04:04:53	Hector Javier Araya:	Estaria mas para ver la de MP
+04:05:00	[Tutora] Lucia Dias:	Asistencia pasada 😊
+04:05:13	[Tutora] Lucia Sheridan:	Por aca también, asistencia pasada!
+04:05:15	[Tutor] Alesio Adrover:	Asistencia pasada!
+04:05:43	[Tutor] José Domínguez:	Si no reciben su asistencia favor de avisar a los tutores aunque en ocasiones la plataforma demora un poco
+04:06:41	[Tutor] Luis Dufour:	También pasé la asistencia!
+04:10:08	[tutor]Rodrigo Fernandez Madrid:	Asistencia pasada!
+04:10:17	[tutor]Rodrigo Fernandez Madrid:	voy a reiniciar la pc, me esta andadno muy mal !
+04:10:22	[tutor]Rodrigo Fernandez Madrid:	enseguida vuelvo !
+04:12:46	[Profe] Conrado Lanusse:	https://pokeapi.co/
+04:16:26	José González:	la api no es compatible con Edge? no me la toma?
+04:16:47	Jonatan Cavenaghi:	no lo es.... a mi tampoco me funciona
+04:16:47	José González:	ok
+04:17:04	[Tutor] Luis Dufour:	Que error sale en la consola? 
+04:17:20	Lucas Lobos:	25 Pika
+04:17:52	José González:	an internal error occured
+04:18:06	[Tutora] Lucia Sheridan:	⚡⚡ Mensaje para mi grupo ⚡⚡Por un error de la plataforma no está disponible el canal de chat de la tutoría de Lucia Sheridan! Lo estoy comunicando con Coder para poder solucionarlo. Por el momento cualquier consulta, aviso o duda que tengan me la pueden mandar directo por privado al chat de Coder!
+04:20:21	Lucas Lobos:	el objeto pokemon
+04:21:02	Guido Carini:	json
+04:22:12	Macarena Garcia:	trae la base de datos en json
+04:22:34	Martin Aracama:	otro .then mas no
+04:22:37	Lucas Lobos:	otro then
+04:22:52	Lucas Lobos:	x ej .then(data)
+04:24:45	Diego Fernández escobar:	profe no se puede usar async y await?
+04:25:42	José María Sosa:	Si se puede
+04:25:45	Jonathan Diaz:	pero eso solo si es Json
+04:25:47	Martin Aracama:	si
+04:25:49	Jonathan Diaz:	o siempre las api son con json
+04:26:11	Jonathan Diaz:	ah impecable
+04:26:35	José María Sosa:	todo raw
+04:26:42	José María Sosa:	el json ens tring puro
+04:27:01	Jonathan Diaz:	genial
+04:27:25	Macarena Garcia:	buenísimo, pero siempre cuesta comunicarse con las API....
+04:27:33	Jonathan Diaz:	pero y eso ? hay que parsear
+04:27:58	Jonathan Diaz:	pero digo para enviarle yo
+04:28:04	José María Sosa:	El viejo stringify y el parse en formato .json y .text
+04:28:07	Lucas Lobos:	Vamos a ver como mandarle el json al back?
+04:30:06	José María Sosa:	los datos de firulais profe
+04:30:17	Guido Carini:	jajajajaa siii
+04:30:18	Luciano Huayta:	jsajasja
+04:30:51	Guido Carini:	ese es gonza ?
+04:31:15	Jonathan Diaz:	fua que raro sea tan simple jaja
+04:32:18	Lucas Lobos:	Impecable
+04:32:23	Luciano Huayta:	si
+04:32:25	Alberto Garza Ayala:	si
+04:32:28	Jonathan Diaz:	pero hay manera de probar eso ?
+04:32:32	Jonathan Diaz:	o no tenemos como no ?
+04:33:05	Pablo Reta:	yo use openhwhater
+04:33:08	Tomas Viader:	y para almacenar datos de usuarios ? no necesitamos hacer posts?
+04:33:14	Pablo Reta:	en el trabajo anterior y funciono perrfecto
+04:33:16	Guido Carini:	perfecto
+04:33:31	Tomas Viader:	Ahhh listo
+04:33:44	[Tutor] Luis Dufour:	la api de whatsapp tiene para hacer post y enviar mensajes
+04:34:47	Emiliano Alfonsin:	la de mercadopago funciona con post?
+04:35:12	José María Sosa:	Supongo que si si le tenes que mandar el monto a cobrar
+04:35:50	[TUTOR] Santiago Denis:	Si Emiliano, te dejo la docu: https://www.mercadopago.com.ar/developers/es/reference/payments/_payments/post
+04:35:52	[Tutor] José Domínguez:	Si por que puede sumarse por ejemplo el detalle de pago y sus datos
+04:37:18	Emiliano Alfonsin:	gracias!
+04:38:31	José María Sosa:	si perfecto
+04:38:31	Pablo Reta:	si
+04:38:32	Luciano Huayta:	si
+04:38:35	Lucas Lobos:	si
+04:38:35	Hector Javier Araya:	sisi
+04:38:36	Nicolas Robles:	Si si
+04:38:43	leandro esteban bustos:	sisi
+04:41:02	Javier Corra:	Podrias explicar un poco el uso de Fragments ? <> </>
+04:41:34	Luciano Huayta:	si plox
+04:44:03	Javier Corra:	genial, muchas gracias
+04:44:48	Luciano Huayta:	bien
+04:45:03	[TUTOR] Santiago Denis:	Fragments explicados bien a fondo: https://blog.logrocket.com/understanding-react-fragments/
+04:45:12	Luciano Huayta:	graciass
+04:45:19	Dario Rodriguez:	jajajajaja
+04:45:20	Martin Aracama:	un crack
+04:45:21	Javier Corra:	SantiBot , gracias
+04:45:24	Luciano Huayta:	es un bot yo sabia
+04:45:24	Guido Carini:	😝
+04:45:24	Orlando Altuve Martins:	jajajajaaj
+04:45:25	Luciano Huayta:	daksjda
+04:45:26	[TUTOR] Santiago Denis:	Soy como el bot de discord
+04:45:26	José González:	ajajajaj
+04:45:26	Joaquin Sangiorgi:	jajajaaj es un crack
+04:45:42	[TUTOR] Santiago Denis:	si ponen !play les pongo musixa
+04:45:50	Javier Corra:	😂
+04:45:56	José González:	jajajaja
+04:47:31	Guido Carini:	🤣
+04:47:56	Francisco Semprini:	useState?
+04:49:09	Guido Carini:	onclick
+04:49:18	Joaquin Sangiorgi:	handlers
+04:49:43	Lucas Lobos:	Igual que el desafio del stock
+04:49:52	Joaquin Sangiorgi:	y condicionarlo para que no baje de 1
+04:50:00	[Tutor] Alesio Adrover:	bien joaquin
+04:50:07	[TUTOR] Santiago Denis:	Vamos Joaquiiiin
+04:50:11	Joaquin Sangiorgi:	o que se vaya del 1 al ultimo
+04:50:41	Gonzalo Rigobello:	hasta para felicitar puso el bot (?
+04:51:04	Javier Corra:	tengo que modificar el useEffect para que actualice  tambien cuando cambia el estado id pasandole [id]
+04:51:10	[TUTOR] Santiago Denis:	jajajaja (ahora Tambien para reir)
+04:51:11	[Tutor] Alesio Adrover:	grande javier
+04:51:20	[Tutor] Alesio Adrover:	muy bien 10
+04:51:27	Francisco Semprini:	puedo meter el fetch dentro de una function ?
+04:51:36	[TUTOR] Santiago Denis:	Si fran
+04:51:53	[Tutor] Alesio Adrover:	montaje es ahora
+04:52:11	[Tutor] Alesio Adrover:	y hay q actualizarlo cada vez q cambie
+04:53:52	José María Sosa:	excelente
+04:53:54	Alberto Garza Ayala:	si
+04:53:55	Guido Carini:	sisi
+04:53:57	Orlando Altuve Martins:	perfecto
+04:53:58	Lucas Lobos:	si
+04:54:02	Francisco Semprini:	es muy facil y muy complicado a la vez ><
+04:54:14	German Ocampo:	impecable
+04:54:15	Jonathan Diaz:	y se puede hacer q salga de una pokebola
+04:54:19	Jonathan Diaz:	o es cualquiera ya jajja
+04:54:32	German Ocampo:	pensé que solo eran 150
+04:54:48	Guido Carini:	😂
+04:55:16	Jonathan Diaz:	jajajaj imaginarlo es tan fácil
+04:55:28	Francisco Semprini:	y con un useState se podria deshabilitar el boton tb ?
+04:55:30	José María Sosa:	un catch al pokemon jajaj
+04:55:37	Francisco Semprini:	cuando llega a 1
+04:55:59	Guido Carini:	y cuando llega al final, para que pase a 1 de nuevo
+04:56:11	Guido Carini:	1599 al principio
+04:57:08	Joaquin Sangiorgi:	Todo esto se puede usar para hacer un carrusel con imágenes también no?
+04:57:16	Lucas Lobos:	id < 1
+04:57:34	Lucas Lobos:	ah bn
+04:58:18	Guido Carini:	jajajaja
+04:58:21	Francisco Semprini:	ahhh interesante
+04:58:25	Joaquin Sangiorgi:	ah sos re trol
+04:58:27	Jonathan Diaz:	tas en todas Conrado jaja
+04:58:41	Orlando Altuve Martins:	anti hack
+04:59:02	Jonathan Diaz:	hagamos una clase de hack ético jajaj
+04:59:05	Martin Aracama:	sii
+04:59:06	Francisco Semprini:	si
+04:59:10	Lucas Lobos:	si
+04:59:11	Luciano Huayta:	si
+04:59:35	Joaquin Sangiorgi:	Demosle estilos a eso
+04:59:36	Martin Aracama:	sip
+04:59:39	Antonella Acevedo:	sii estamos
+04:59:40	Lucas Lobos:	yo la use en JS a la poke-api
+04:59:40	Dario Rodriguez:	ahí te manda santi la clase de hack etico
+04:59:42	José María Sosa:	Profe si quiere ir cerrando la clase explique el desafío jajaj
+04:59:43	Dario Rodriguez:	jajaja
+05:00:14	Orlando Altuve Martins:	yo intente conectarme a una api y me dio error de cords..
+05:01:07	[TUTOR] Santiago Denis:	Control de acceso http (CORS): https://developer.mozilla.org/es/docs/Web/HTTP/CORS
+05:01:10	Luciano Huayta:	!hacketico
+05:01:16	Gonzalo Rigobello:	JAJA
+05:01:21	Martin Aracama:	grande el SaniBot jajaja
+05:01:27	Martin Aracama:	Santi
+05:01:28	Lucas Lobos:	Se lo estaba guardando jaja
+05:01:59	Martin Aracama:	vamo al desafio que se quema el pollo........
+05:02:12	[TUTOR] Santiago Denis:	Extension que soluciona el CORS: https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=es
+05:02:55	[Tutor] Alesio Adrover:	Respeten los nombres de los componentes porfa
+05:03:03	Hector Javier Araya:	tipo un modal?
+05:04:43	[Tutor] José Domínguez:	Recuerden también en tener cuidado en como importan sus componentes, es decir en poner correctamente la ruta o el nombre del componente por ejemplo
+05:05:19	Lucas Lobos:	Con el id como con la pokeapi
+05:05:27	Francisco Semprini:	no es major pedir solo 1 producto ? para no mover datos para nada? o no jode traer de mas
+05:05:29	Martin Aracama:	tenemos que seleccionar uno de los productos de nuestro catalogo
+05:05:56	Lucas Lobos:	🤯
+05:06:00	José María Sosa:	re copiado de mercado libre ese ejemplo jajaj
+05:06:06	Lucas Lobos:	y aprendemos hacerle el zoom al producto
+05:06:15	Guido Carini:	en una pagina nueva?
+05:06:23	Jonathan Diaz:	fua no se si soy capaz de eso
+05:06:31	[Tutor] Alesio Adrover:	componente nuevo
+05:06:47	Leonel Dechat:	tenemos que usar el Router?
+05:06:52	José María Sosa:	igual la clase que viene vemos la navegación y ahí podemos mechar las dos cosas ya
+05:06:52	Martin Aracama:	vas a tener que ahcerlo el miercoles
+05:06:56	[Tutor] Alesio Adrover:	ItemDetailContainer ---> ItemDetail
+05:06:58	Martin Aracama:	hacerlo
+05:07:02	[TUTOR] Santiago Denis:	Eso recien la clase que viene Leonel
+05:07:05	[Tutor] José Domínguez:	Por ahora no Leonel
+05:07:49	Francisco Semprini:	y las tarjetas que armamos que tenian los contadores ?
+05:08:03	Hector Javier Araya:	ok
+05:08:03	[TUTOR] Santiago Denis:	El contador lo pasas a itemDetail fran
+05:08:05	Macarena Garcia:	genial, iba a preguntar eso...jajaja
+05:08:09	Francisco Semprini:	ahhh oka
+05:08:18	German Ocampo:	que barato estaba ahí el Galaxy S20 FE
+05:08:33	Martin Aracama:	perfecto
+05:08:34	José María Sosa:	Si
+05:08:37	Francisco Semprini:	si
+05:08:37	José María Sosa:	Muchas gracias
+05:08:38	German Ocampo:	sisis
+05:08:40	Emiliano Alfonsin:	sisi
+05:08:42	Lucas Lobos:	Si
+05:08:45	Gonzalo Barreiro Aguirre:	devaluadisima esa foto
+05:08:49	Macarena Garcia:	deberíamos armar uno simple con ver mas y uno detallado?
+05:08:52	Gonzalo Barreiro Aguirre:	métanle una dolarAPI
+05:09:21	Guido Carini:	gracias
+05:09:34	Macarena Garcia:	claro...con el contador y detalle...
+05:09:43	Macarena Garcia:	y uno sencillo
+05:09:48	Martin Aracama:	ok
+05:09:51	Macarena Garcia:	genial! gracias
+05:10:09	[TUTOR] Santiago Denis:	Muchisimas gracias por venir gente! Recuerden valorar!!
+05:10:12	[Tutor] Alesio Adrover:	Q tengan buenas noches! descansen la mente!
+05:10:13	[tutor] Agustin Lopez:	Buenas noches gente!
+05:10:14	Martin Aracama:	muchas gracias
+05:10:15	Macarena Garcia:	ese componente pedir datos hay que crearlo..
+05:10:16	Leonel Dechat:	Gracias bye
+05:10:17	Guido Carini:	gracias
+05:10:19	Luciano Huayta:	chau
+05:10:19	[Tutora] Lucia Sheridan:	buenas noches!!
+05:10:19	Guido Carini:	hasta luego
+05:10:20	Luciano Huayta:	buena clase
+05:10:20	José María Sosa:	Gracias nos vemoo
+05:10:21	Martin Aracama:	hasta el miercoles
+05:10:22	Francisco Semprini:	muchas hracias buenas noches! !
+05:10:23	Lucas Lobos:	NOs vemos !!!
+05:10:23	Joaquin Sangiorgi:	Buenas nochess
+05:10:25	Alberto Garza Ayala:	nos vemos3
+05:10:26	Javier Corra:	muchas gracias
