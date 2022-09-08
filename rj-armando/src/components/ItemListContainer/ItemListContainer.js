@@ -10,7 +10,6 @@ const [loading, setLoading] = useState(true)
 
 const {categoryId} = useParams()
     console.log(categoryId)
-
         
         useEffect(() =>{
             setLoading(true)
@@ -40,7 +39,6 @@ const {categoryId} = useParams()
                     ? <h2>Cargando....</h2>
                     :<ItemList productos={productos}/>
                 }
-                <ItemList productos={productos} />
             </div>
         )
 }

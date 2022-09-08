@@ -6,15 +6,16 @@ export const NavBar = () => {
         <header className="bg-NavBar">
           <div className="NavBar-container">
 
-          <Link to='/' ><h1 className="NavBar-title">Mundo del Gamer</h1></Link>
+              <Link to='/' ><h1 className="NavBar-title">Mundo del Gamer</h1></Link>
 
-          <nav className="header">
-           <Link to='/productos/teclados' className="NavBar-navlink">Teclados</Link>
-           <Link to='/productos/monitor' className="NavBar-navlink">Monitor</Link>
-           <Link to='/productos/bocina' className="NavBar-navlink">Bocina</Link>
+            <nav className="header">
 
-          </nav>
-        </div>
+              <Link to='/productos/teclados' className="NavBar-navlink">Teclados</Link>
+              <Link to='/productos/monitor' className="NavBar-navlink">Monitor</Link>
+              <Link to='/productos/bocina' className="NavBar-navlink">Bocina</Link>
+
+            </nav>
+          </div>
       </header>
     )
 }
