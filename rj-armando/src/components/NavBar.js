@@ -13,6 +13,9 @@ export const NavBar = () => {
               <Link to='/productos/teclados' className="NavBar-navlink">Teclados</Link>
               <Link to='/productos/monitor' className="NavBar-navlink">Monitor</Link>
               <Link to='/productos/bocina' className="NavBar-navlink">Bocina</Link>
+              <Link to='/nosotros' className="NavBar-navlink">Nosotros</Link>
+              <Link to='/contacto' className="NavBar-navlink">Contacto</Link>
+
 
             </nav>
           </div>

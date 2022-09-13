@@ -4,7 +4,7 @@ export const stock =[
         nombre: 'Silla RGB',
         precio:  2500,
         img: '/assets/silla1.jpeg',
-        stock: 20,
+        stock: 10,
         desc: 'Un exelente producto',
         category:'silla'
     },
@@ -13,7 +13,7 @@ export const stock =[
         nombre: 'CPU',
         precio:  500,
         img: '/assets/cpu1.jpg',
-        stock: 20,
+        stock: 11,
         desc: 'Un exelente producto',
         category:'cpu'
 
@@ -23,7 +23,7 @@ export const stock =[
         nombre: 'Teclado',
         precio:  250,
         img: '/assets/teclado1.jpg',
-        stock: 20,
+        stock: 15,
         desc: 'Un exelente producto',
         category:'teclados'
 
@@ -34,7 +34,7 @@ export const stock =[
         nombre: 'Bocina',
         precio: 380,
         img: '/assets/bocina1.jpg',
-        stock: 20,
+        stock: 5,
         desc: 'Un exelente producto',
         category:'bocina'
 
@@ -45,7 +45,7 @@ export const stock =[
         nombre: 'Monitor',
         precio: 1520,
         img: '/assets/monitor1.jpg',
-        stock: 20,
+        stock: 8,
         desc: 'Un exelente producto',
         category:'monitor'
 

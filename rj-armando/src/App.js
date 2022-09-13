@@ -4,6 +4,8 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import { BrowserRouter, Navigate, Route, Routes} from 'react-router-dom';
 import ItemDatailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { Contenedor } from './ejemplos/Contenedor';
+import Nosotros from './components/Nosotros/Nosotros';
+import Contacto from './components/Contacto/Contacto';
 
 
 const App = () =>{
@@ -22,6 +24,9 @@ const App = () =>{
         <Route path='/' element={ <ItemListContainer/> }/>
         <Route path='/productos/:categoryId' element={ <ItemListContainer/> } />
         <Route path='/item/:itemId' element={ <ItemDatailContainer/> }/>
+
+        <Route path= "/nosotros" element={<Nosotros/>}/>
+        <Route path= "/contacto" element={<Contacto/>}/>
         <Route path='*' element={<Navigate to="/" />} />
 
       </Routes>
