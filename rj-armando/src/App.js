@@ -3,7 +3,6 @@ import { NavBar } from './components/NavBar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import { BrowserRouter, Navigate, Route, Routes} from 'react-router-dom';
 import ItemDatailContainer from './components/ItemDetailContainer/ItemDetailContainer';
-import { Contenedor } from './ejemplos/Contenedor';
 import Nosotros from './components/Nosotros/Nosotros';
 import Contacto from './components/Contacto/Contacto';
 
@@ -31,7 +30,6 @@ const App = () =>{
 
       </Routes>
 
-      <Contenedor/>
     </BrowserRouter>
   </div>
   

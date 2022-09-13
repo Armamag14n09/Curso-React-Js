@@ -3,7 +3,7 @@ import { useState } from "react"
 import Select from "../Select/Select"
 
 
-const option = [
+const options = [
     {
         value: 'L',
         texto: 'Large'
@@ -46,7 +46,7 @@ const ItemDetail = ({item} ) => {
             <p>{item.category} </p>
             <h5>{item.precio} </h5>
             <hr/>
-            <Select option={option}/>
+            <Select options={options}/>
             <hr/>
 
             <Counter 

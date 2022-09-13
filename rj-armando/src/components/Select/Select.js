@@ -1,10 +1,12 @@
 
 
-const Select = ( {option}) => {
+const Select = ( {options}) => {
 
     return(
         <select>
-            option.map((opt) => <option key={opt.value} value={opt.value}>{option.tex} </option>)
+            {
+            options.map((opt) => <option key={opt.value} value={opt.value}>{opt.tex} </option>)
+            }
         </select>
     )
 
