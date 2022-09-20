@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 import { pedirDatos } from "../../helpers/pedirDatos"
 import ItemList from "../itemList/itemList"
 import { useParams } from 'react-router-dom'
+import Loader from "../Loader/Loader"
+
 
 const ItemListContainer = () => {
 
@@ -34,9 +36,11 @@ const {categoryId} = useParams()
 
         return(
             <div>
-                {
+
+                { 
                     loading 
-                    ? <h2>Cargando....</h2>
+                    ? <Loader/>
+                    
                     :<ItemList productos={productos}/>
                 }
             </div>

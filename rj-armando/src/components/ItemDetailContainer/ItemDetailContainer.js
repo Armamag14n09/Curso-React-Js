@@ -3,6 +3,8 @@ import { useEffect, useState } from "react"
 import { useParams } from 'react-router-dom'
 import { pedirDatos } from "../../helpers/pedirDatos"
 import ItemDetail from "../ItemDatail/ItemDetail"
+import Loader from "../Loader/Loader"
+
 
 
 const ItemDatailContainer = () =>{
@@ -32,7 +34,7 @@ const ItemDatailContainer = () =>{
         <div  className="NavBar-container">
             {
             loading
-            ? <h2>Loading....</h2>
+            ? <Loader/>
             : <ItemDetail item={item} />
             }
         </div>

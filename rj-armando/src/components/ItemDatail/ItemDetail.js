@@ -23,8 +23,7 @@ const options = [
 
 const ItemDetail = ({item} ) => {
 
-    const { cart, addToCart, isInCart } = useContext(CartContext)
-    console.log(cart)
+    const {  addToCart, isInCart } = useContext(CartContext)
 
     const [cantidad, setCantidad,] = useState(1)
 
@@ -48,6 +47,8 @@ const ItemDetail = ({item} ) => {
             <p>{item.desc} </p>
             <p>{item.category} </p>
             <h5>{item.precio} </h5>
+
+            {item.promo && <h5 style={{colo: 'red'}}> {item.promo}% Off </h5> }
             <hr/>
             <Select options={options}/>
             <hr/>
