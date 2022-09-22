@@ -1,34 +1,33 @@
 import { useEffect, useState } from "react"
-//import { pedirDatos } from "../../helpers/pedirDatos"
 import { useParams } from 'react-router-dom'
-import { pedirDatos } from "../../helpers/pedirDatos"
 import ItemDetail from "../ItemDatail/ItemDetail"
 import Loader from "../Loader/Loader"
+import { doc, getDoc } from "firebase/firestore"
+import { db } from '../Firebase/config'
 
 
 
 const ItemDatailContainer = () =>{
 
-    const [item, setItem] = useState(null)
+    const [item, productos, setItem] = useState([])
     const [loading, setLoadin] =useState(true)
 
     const{itemId} = useParams ()
 
-    console.log(itemId)
-    console.log(item)
 
     useEffect(() => {
         setLoadin(true)
+        const docRef = doc( db, 'productos', itemId )
 
-        pedirDatos( )
-            .then((res)=>{
-                setItem(res.find((prod) => prod.id === Number(itemId)))
+        getDoc(docRef)
+            .then((doc) => {
+                setItem({id: doc.id, ...doc.data()})
             })
-            .catch(err => console.log(err))
             .finally(() => {
                 setLoadin(false)
             })
-    },[])
+
+    },[itemId])
 
     return(
         <div  className="NavBar-container">

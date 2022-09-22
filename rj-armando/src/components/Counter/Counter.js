@@ -1,5 +1,5 @@
-// import { useState } from "react"
-//import './Counter.scss'
+//import { useState } from "react"
+import './Counter.scss'
  
 
 const Counter = ({max, counter, setCounter, handleAgregar}) => {
