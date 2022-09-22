@@ -17,8 +17,10 @@ const {categoryId} = useParams()
             setLoading(true)
             
             const productosRef = collection(db, 'productos')
-            const q = query(productosRef, where('category','==', categoryId) )
-
+            const q = categoryId
+                        ? query(productosRef, where('category','==', categoryId) )
+                        : productosRef
+            
             getDocs(q)
             .then((resp) => {
                 const productosDB = resp.docs.map( (doc) => ({id: doc.id, ...doc.data()}) )
