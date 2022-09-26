@@ -7,12 +7,15 @@ import Nosotros from './components/Nosotros/Nosotros';
 import Contacto from './components/Contacto/Contacto';
 import { CartProvider } from './Context/CartContext';
 import Cart from './components/Cart/Cart';
+import { LoginProvider } from './Context/LoginContext';
+import LoginScreen from './components/LoginScreen/LoginScreen';
 
 const App = () =>{
 
 
 
   return (
+    <LoginProvider>
 
     <CartProvider>
 
@@ -27,7 +30,7 @@ const App = () =>{
           <Route path='/' element={ <ItemListContainer/> }/>
           <Route path='/productos/:categoryId' element={ <ItemListContainer/> } />
           <Route path='/item/:itemId' element={ <ItemDatailContainer/> }/>
-
+          <Route path='/login' element={<LoginScreen/>} />
           <Route path='/cart' element={<Cart/>} />
           <Route path= "/nosotros" element={<Nosotros/>}/>
           <Route path= "/contacto" element={<Contacto/>}/>
@@ -39,9 +42,9 @@ const App = () =>{
       
     </div>
 
-  </CartProvider>
+   </CartProvider>
 
-  
+  </LoginProvider>
   );
 }
 
