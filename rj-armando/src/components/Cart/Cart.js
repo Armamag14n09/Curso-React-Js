@@ -43,7 +43,7 @@ const Cart = () => {
 
             <h4>Total: $ {cartTotal() } </h4>
             <button onClick={empyCart} className="btn btn-danger">Vaciar Carrito</button>
-
+            <Link className="btn btn-success mx-3" to="/checkout" >Terminar mi compra</Link>
         </div>
     )
 }

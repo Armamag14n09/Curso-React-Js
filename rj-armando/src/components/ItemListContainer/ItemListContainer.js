@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react" 
 import ItemList from "../itemList/itemList"
 import { useParams } from 'react-router-dom'
-import Loader from "../Loader/Loader"
+//import Loader from "../Loader/Loader"
 import { collection, getDocs, query, where } from "firebase/firestore"
 import { db } from '../Firebase/config'
 
@@ -34,13 +34,13 @@ const {categoryId} = useParams()
 
         }, [categoryId])
 
+
         return(
             <div>
 
                 { 
                     loading 
-                    ? <Loader/>
-                    
+                    ? <h2>Cargando....</h2>
                     :<ItemList productos={productos}/>
                 }
             </div>

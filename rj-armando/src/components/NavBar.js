@@ -1,8 +1,12 @@
 import './App.css'
 import { Link  } from 'react-router-dom'
 import CartWidget from './CartWidget/CartWidget'
+import { useLoginCotext } from '../Context/LoginContext'
 
 export const NavBar = () => {
+
+  const {user, logout} = useLoginCotext()
+
     return(
         <header className="bg-NavBar">
           <div className="NavBar-container">
@@ -22,6 +26,13 @@ export const NavBar = () => {
 
 
           </div>
+
+          <div className='header-user'>
+            <small>Bienvenido: {user.user} </small>
+            <button onClick={logout} className='btn btn-outline-danger'>Logout</button>
+
+          </div>
+
       </header>
     )
 }
