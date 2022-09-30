@@ -1,11 +1,13 @@
 import { useState } from "react"
+import { Navigate } from "react-router-dom"
 import { useCartContext } from "../../Context/CartContext"
-
+import { addDoc, collection, doc } from 'firebase/firestore'
+import { db } from "../Firebase/config"
 
 
 const Checkout = () => {
 
-    const {cart,  cartTotal} =  useCartContext()
+    const {cart,  cartTotal, terminarCompra} =  useCartContext()
 
     const [values, setValues] = useState({
         nombre: '',
@@ -36,12 +38,20 @@ const Checkout = () => {
         if (values.email.length < 2) {
             alert("Email incorrecto")
             return
-         }
-         console.log("submit del form")
-         console.log(orden)
- 
- 
+
+        }
+
+        const ordenesRef = collection (db, 'ordenes')
+            addDoc(ordenesRef, orden)
+                .then((doc) => {
+                    console.log(doc.id)
+                    terminarCompra(doc.id)
+                } ) 
     }
+
+        if(cart.length === 0) {
+            return <Navigate to="/"/>
+        }
 
     return(
         <div className="container my-5">
