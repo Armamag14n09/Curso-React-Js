@@ -1,7 +1,7 @@
 import Counter from "../Counter/Counter"
 import { useContext, useState } from "react"
 import Select from "../Select/Select"
-import { CartContext } from "../../Context/CartContext"
+import { useCartContext } from "../../Context/CartContext"
 import { Link } from "react-router-dom"
 
 
@@ -23,7 +23,7 @@ const options = [
 
 const ItemDetail = ({item} ) => {
 
-    const {  addToCart, isInCart } = useContext(CartContext)
+    const {  addToCart, isInCart } = useCartContext()
 
     const [cantidad, setCantidad,] = useState(1)
 

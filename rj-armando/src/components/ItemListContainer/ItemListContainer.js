@@ -2,8 +2,9 @@ import { useEffect, useState } from "react"
 import ItemList from "../itemList/itemList"
 import { useParams } from 'react-router-dom'
 //import Loader from "../Loader/Loader"
-import { collection, getDocs, limit, query, where } from "firebase/firestore"
 import { db } from '../Firebase/config'
+import { collection, getDocs, query, where } from "firebase/firestore"
+
 
 
 const ItemListContainer = () => {
@@ -18,7 +19,7 @@ const {categoryId} = useParams()
             
             const productosRef = collection(db, 'productos')
             const q = categoryId
-                        ? query(productosRef, where('category','==', categoryId), limit(1)  )
+                        ? query(productosRef, where('category','==', categoryId), )
                         : productosRef
             
             getDocs(q)
