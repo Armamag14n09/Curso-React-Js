@@ -1,12 +1,11 @@
-import { useContext } from "react"
-import { CartContext } from "../../Context/CartContext"
+import { useCartContext } from "../../Context/CartContext"
 import {BsFillTrashFill} from 'react-icons/bs'
-import { Link } from "react-router-dom"
+import { Link, Navigate } from "react-router-dom"
 
 
 const Cart = () => {
 
-    const { cart, cartTotal, empyCart, removeItem } = useContext(CartContext)
+    const { cart, cartTotal, empyCart, removeItem } = useCartContext()
 
     if (cart.length === 0) {
 

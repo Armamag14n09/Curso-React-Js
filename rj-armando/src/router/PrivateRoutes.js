@@ -20,7 +20,7 @@ import Checkout from '../components/Checkout/Checkout'
                     <Route path='/productos/:categoryId' element={ <ItemListContainer/> } />
                     <Route path='/item/:itemId' element={ <ItemDatailContainer/> }/>
                     <Route path='/cart' element={<Cart/>} />
-                    <Route path='/checkout' element={<Checkout/>} />
+                    <Route path='/Checkout' element={<Checkout/>} />
                     <Route path= "/nosotros" element={<Nosotros/>}/>
                     <Route path= "/contacto" element={<Contacto/>}/>
                     <Route path='*' element={<Navigate to="/" />} />
