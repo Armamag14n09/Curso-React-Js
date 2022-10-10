@@ -17,7 +17,7 @@ const ItemDatailContainer = ({darkMode}) =>{
 
     useEffect(() => {
         setLoadin(true)
-        const docRef = doc( db, 'productos', itemId )
+            const docRef = doc( db, 'productos', itemId )
 
         getDoc(docRef)
             .then((doc) => {
@@ -27,7 +27,7 @@ const ItemDatailContainer = ({darkMode}) =>{
                 setLoadin(false)
             })
 
-    },[ ])
+    },[])
 
     return(
         <div  className="NavBar-container">

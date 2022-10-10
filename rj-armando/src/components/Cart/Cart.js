@@ -1,6 +1,6 @@
 import { useCartContext } from "../../Context/CartContext"
 import {BsFillTrashFill} from 'react-icons/bs'
-import { Link, Navigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 const Cart = () => {
